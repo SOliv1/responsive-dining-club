@@ -50,7 +50,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     margin: 0;
-    background-color: lightsalmon;
+    background-color: teal;
 }
 
 .bar {
@@ -108,7 +108,8 @@ li {
 .summary,
 .testimonial,
 .photos,
-.meetup {
+.meetup,
+.contact {
     margin: 4em auto;
     text-align: center;
     padding-inline-start: 10fr;
@@ -174,6 +175,29 @@ span {
     color: yellow;
     text-align: center;
 }
+
+.contact {
+    background-color: teal;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: yellow;
+    margin-top: 10rem;
+    padding: 2rem;
+
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    width: 100%;
+    padding: 13px;
+    color: white;
+    top: 140px;
+  }
+
 
 @media only screen and (max-width: 1048px) {
 
