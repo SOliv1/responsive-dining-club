@@ -8,7 +8,7 @@ body {
 
 .cover {
     height: 100vh;
-    background: url('../images/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg') no-repeat bottom right fixed;
+    background: url('images/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,7 +67,7 @@ body {
     margin-top: 5rem;
     padding: 2rem;
     padding-top: 1rem;
-    background-image: url('../images/zero-take-8ihqjGKEyD4-unsplash.jpg');
+    background-image: url('images/zero-take-8ihqjGKEyD4-unsplash.jpg');
     width: 100%;
     height: auto;
     background-position: center;
