@@ -3,7 +3,8 @@ body {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     margin: 0;
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
+    background-color: teal;
 }
 
 .cover {
@@ -31,12 +32,6 @@ body {
 
 }
 
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-
 .masthead-container {
     padding-top: 1rem;
     background-color: teal;
@@ -44,15 +39,28 @@ body {
     color: #fff;
 }
 
-.bar {
-    padding-top: 1rem;
-    background-color: teal;
-    color: lightsalmon;
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.bar p {
-    left: 25rem;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .intro {
     margin-top: 5rem;
@@ -141,16 +149,16 @@ h4 {
     height: 20rem;
     padding: 0 1rem;
     padding-top: 1rem;
-    color: yellow;
+    color: #fff;
 }
 
 .testimonial h1 {
     font-size: 2.5rem;
-    color: yellow;
+    color: #ffff;
 }
 
 .summary h2 {
-    color: yellow;
+    color: #ffff;
 }
 
 
@@ -175,8 +183,16 @@ span {
 }
 
 .meetup h1 {
-    color: yellow;
+    color: white;
     text-align: center;
+}
+
+h2, h3{
+    color: white;
+}
+
+.block-divider--white {
+    background-color: #fff;
 }
 
 .contact {
@@ -184,7 +200,7 @@ span {
     height: 20rem;
     padding: 0 1rem;
     padding-top: 1rem;
-    color: yellow;
+    color: #fff;
     margin-top: 10rem;
     padding: 2rem;
 
@@ -201,7 +217,14 @@ span {
     top: 140px;
   }
 
+  a {
+    color: white;
+}
 
+.fa-solid, .fas {
+    font-weight: 900;
+    color: #ffff;
+}
 @media only screen and (max-width: 1048px) {
 
     .photos img {
